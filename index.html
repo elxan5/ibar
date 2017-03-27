@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+</head>
+<body>
+
+<div class="personalImg">
+	<div class="personInfo">
+	<h5>Fərdi</h5>
+    	<div class="col6">
+    		<ul>
+    			<li>Bank 24/7</li>
+    			<li>Əmanətlər</li>
+    			<li>Elektron xidmətlər</li>
+    			<li>Cari hesab</li>
+    		</ul>
+    	</div>
+    	<div class="col6">
+    			<ul>
+    			<li>Kreditlər</li>
+    			<li>Ödəniş kartları</li>
+    			<li>Köçürmələr</li>
+    			<li>Kampaniyalar</li>
+    		</ul>
+    	</div>
+    </div>
+</div>
+    <div class="corporativImg">	
+       <div class="corpInfo">
+	     <h5>Corporativ</h5>
+    	  <div class="col6">
+    		<ul>
+    			<li>Elektron bankçılıq</li>
+    			<li>Sənədli əməliyyatlar</li>
+    			<li>Ödəniş kartları</li>
+    			<li>Hesablar</li>
+    		</ul>
+    	</div>
+    	<div class="col6">
+    			<ul>
+    			<li>Biznes Kreditləri</li>
+    			<li>Əmanətlər</li>
+    			<li>Köçürmələr</li>
+    			<li>Bizimlə əlaqə</li>
+    		</ul>
+    	</div>
+    </div>
+    </div>
+<div id="onlineRight">
+   <div class="weCont">
+      	   	<div class="contactDel" onclick="contDelete()">X</div>
+      	    	<h5>Bank online</h5>
+           </div>
+		<div class="relations">
+			<ul>
+				<li>Ödənişlər aparın</li>
+				<li>Kredit ödəyin</li>
+				<li>Cari hesaba pul köçürün</li>
+				<li>Kart sifariş edin</li>
+				<li>Kredit sifariş edin</li>
+				<li>Arayış sifariş edin</li>
+				<li>R@ndevu</li>
+			</ul>
+	 </div>
+</div>
+    <div id="contactRight">
+      	<div class="weCont">
+      	   	<div class="contactDel" onclick="contDelete()">X</div>
+      	    	<h5>Bizimlə əlaqə</h5>
+          </div>
+      	<div class="relations">
+            <ul>
+            	<li>Bizə zəng edin</li>
+            	<li>Bizə yazın</li>
+            	<li>Online chat</li>
+            	<li>Facebookda soruşun</li>
+            </ul>
+        </div>  
+    </div>
+<!--All bar-->
+      <div id="allBar">
+  			<div class="col12">
+  				<div class="row">
+  				   <p class="barPersonal left">Fərdi</p>
+  		  	    	  <p class="barCorporativ left">Korporativ</p>	
+  		  				<div class="delete" onclick="barDelete()">X</div>
+  	              </div>
+  	 </div>
+  <div class="clear"></div>
+  	  <div class="col11">
+  	      <div class="barLoop">
+  	   		<input class="barSearch" type="text" placeholder="Axtar">
+  	   		    <div class="col1">
+  	   		  <div class="col11">
+  	   		  	  <img src="img/search.svg" alt="">
+  	   		  </div>
+  	   	</div>
+  	</div>
+ </div> 
+ <div class="clear"></div>
+ 			<div class="col12">
+ 			 <div id="barNews">
+ 	          	<div class="row">
+ 				   <div class="col3">
+ 				     <p>Bank 24/7</p>
+                        <ul>
+ 				    	    <li>MobilBank</li>
+							<li>InternetBank</li>
+							<li>Bankomat</li>
+							<li>Ödəniş terminalı</li>
+							<li>Cash-in bankomatı</li>
+					   </ul>
+ 				</div>
+ 					<div class="col4">
+ 					    <p>Kreditlər</p>
+ 					       <ul>
+                             <li>Əmək haqqı krediti</li>
+                             <li>Pensiya krediti</li>
+                             <li>Pensiya + </li>
+                             <li>Kart üzrə kredit limiti</li>
+                             <li>Əmanətçi nağd krediti</li>
+                             <li>Əmanətçi kredit limiti</li>
+                             <li>İpoteka krediti (AİF)</li>
+ 					   </ul>
+ 				</div>
+ 				    <div class="col4">
+ 					  <p>Əmanətlər</p>
+ 					    <ul>
+ 					    	<li>"Klassik" əmanəti</li>
+					    	<li>ElektronDepozit</li>
+					    	<li>Əmanətlərin sığortalanması</li>
+					    	<li>Depozit seyfi</li>
+					    </ul>
+ 					</div>
+ 					 <div class="clear"></div>
+                	   <div class="col3">
+                		 <p>Ödəniş kartları</p>
+                			<ul>
+                		  	   <li>Status kartları</li>
+                		  	   <li>Sadəcə kartlar</li>
+                		  	   <li>Virtual kartlar</li>
+                		  	   <li>Ekskuluziv kartlar</li>
+                		    </ul>
+                    </div>
+                	 <div class="col4">
+                	 <p>Elektron Xidmətlər</p>
+                		<ul>
+                       		 <li>Əməliyyatlardan xəbərdar olun</li>
+                       		 <li>Kartdan pul köçürün</li>
+                       		 <li>PIN-kodunuzu dəyişin</li>
+                       		 <li>Əmanət açın</li>
+                       		 <li>Kartınızı qoruyun</li>
+                	    </ul>
+                	</div>
+                	<div class="col3">
+                	    <p class="barMeet"></p>
+                	    <ul>
+                	    	<li>Bankda görüş təyin edin</li>
+                	    	<li>Xidmət haqlarını ödəyin</li>
+                	    	<li>Karta pul yatırın</li>
+                	    	<li>Kreditinizi ödəyin</li>
+                	    </ul>
+                	</div>
+                	<div class="clear"></div>
+                	
+                  	    </div>
+                    </div>
+                 </div>
+                 </div>
+              <!--/All bar-->
+ 	<div class="clear"></div>
+ 
+<section id="header">
+	<div class="wrapper">
+	<!--topMenu-->
+   <section id="topMenu">
+     	<div class="row">
+		   <div class="col2">
+		   	   <div class="logo">
+		   	   	   <img src="img/logo.svg" alt="">
+		   </div>
+		</div>
+	          <div class="col1">
+	          	<div class="personal">
+	          		    <p>Fərdi</p>
+	          	</div>
+	          </div> 
+	          <div class="col2">
+	          	<div class="corporativ">
+	          		 <p>Korporativ</p>
+	          	</div>
+	          </div>
+	         	 <div class="col7">
+	         	  <div class="nav">
+	          		 <div class="col2">
+	          			<div class="contact" onclick="contRight()">
+					 	  <span>Bizimlə əlaqə</span>
+	          		    </div>
+	                </div>
+             	  <div class="col2">
+               			<div class="online" onclick="onlineMy()">
+                     		<span>Bank online</span>
+               	  </div>
+               </div>
+<div class="col1">
+   <div class="currency">
+        <b class>USD</b>
+  </div>
+</div>
+      <div class="col2">
+ 		<div class="cell">
+ 	   	 <b class>1.6700 Alış</b>
+ 		</div>
+   </div>
+		<div class="col2">
+    		 <div class="buy">
+         		<b class>1.7400 Satış</b>
+     </div>
+</div>
+ 			<div class="col2">
+     			<div class="bankOn">
+        			 <p>InternetBank</p>
+    	   </div>
+  		 </div>
+       </div>
+     </div>
+   </div>
+</section>
+<div class="clear"></div>
+<section id="content">
+     <div class="middleCont">
+       <div class="col12">
+         <input class="searchPlace" type="text" name="search">
+	        <span class="searchHelp">Sizə necə kömək edə bilərik?
+          </span>
+             <i class="fa fa-search fa-2x icon1 right" aria-hidden="true"></i>
+           <div class="bars" onclick="move()">
+	   <i class="fa fa-bars fa-lg fa-2x icon2 right " aria-hidden="true"></i>
+     </div>
+     </div>
+     <div class="clear"></div>
+     <div class="val">
+        <ul>
+          <li>Meselen:</li>
+          <li>Valyuta</li>
+          <li>Kredit</li>
+          <li>Depozit</li>
+          <li>Kart</li>
+          <li>Internet Banking</li>
+        </ul>
+     </div>
+	  <div class="clear"></div>
+              <div class="slider left">
+              	<img src="img/card1.jpg" alt="">
+              </div>
+              	 <div class="payment left">
+		    <p>Ödənişlər aparın</p>
+		    <div class="col5">
+	              <img src="img/picture.png" alt="">
+		    	</div>
+		    	<span>Ətraflı</span>
+		    </div>
+              </div>
+	
+</section>
+<div class="clear"></div>
+<section id="footer">
+<div class="row">
+<div class="col12">
+	   <div class="col6">
+		   <div class="col3">
+			   <span>Haqqımızda</span>
+		</div>
+		     <div class="col3">
+		     	<span>Xidmət şəbəkəsi</span>
+		</div>
+				<div class="col2">
+					<span>Xəbərlər</span>
+		</div>
+			<div class="col2">
+				<span>Tariflər</span>
+		</div>
+			<div class="col2">
+				<span>Məzənnələr</span>
+		</div>
+		<div class="clear"></div>
+		<div class="low">
+			<div class="col12">
+				<div class="col8">
+					<p>© Azərbaycan Beynəlxalq Bankı - Bütün hüquqlar qorunur</p>
+				</div>
+				<div class="col2">
+					<p>Creatid by</p>
+				</div>
+				<div class="col1">
+					<img class="lowImg" src="img/jis.png" alt="">
+				</div>
+				<div class="col1">
+					<p class="jis">JIS</p>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<div class="col3">
+		<div class="col3">
+		   <img src="img/vq.png" alt="">
+	   </div>
+	 <div class="col3">
+		<img src="img/adif.png" alt="">
+	  </div>
+	   <div class="col3">
+	   <div class="fims">
+	   			<img src="img/fimsa.png" alt="">
+	   </div>
+	  </div>
+	</div>
+	<div class="col2">
+	<div class="lang">
+		<div class="col6">
+			<span>English</span>
+		</div>
+		   <div class="col6">
+			<span>По-русски</span>
+		</div>
+		<div class="col12">
+			<div class="col2">
+			<i class="fa fa-facebook myLink" aria-hidden="true"></i>
+			</div>
+			<div class="col2">
+			<i class="fa fa-instagram myLink" aria-hidden="true"></i>
+			</div>
+			<div class="col2">
+			<i class="fa fa-twitter myLink" aria-hidden="true"></i>
+			</div>
+			<div class="col2">
+            <i class="fa fa-youtube-play myLink" aria-hidden="true"></i>
+			</div>
+			<div class="col3">
+			<i class="fa fa-linkedin myLink" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+		
+	</div>
+		<div class="col1">
+			<div class="col10">
+				<img  class="myCall" src="img/call.png" alt="">
+			</div>
+ 		</div>
+	</div> 
+</div>
+</section>
+</div>
+</section>	
+</body>
+</html>
+<script type=text/javascript src="js/script.js"></script>
